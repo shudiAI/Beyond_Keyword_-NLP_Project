@@ -71,15 +71,12 @@ The notebook uses paths relative to its working folder and creates one `outputs/
 - **Sources:** dataset, pretrained encoder and methodology references.
 
 ## Try it on new text
+Run the training and evaluation sections first.
+Then run the Try it cell, enter an English news headline when prompted, and choose `tfidf` or `sbert`.
 
-Run the training and evaluation sections first. In the **Try it** cell, change:
+The selected model displays a prediction without retraining. Empty headlines and invalid model choices return helpful messages.
 
-```python
-new_headline = 'Software company reports record quarterly profits'
-selected_model = 'tfidf'  # Choose 'tfidf' or 'sbert'.
-```
 
-Run the cell to display the selected model's prediction. Inference loads saved fitted models and does not retrain them. Empty input returns a helpful message. The system is designed for English Business and Science & Technology headlines; inputs from other categories still receive one of these two labels.
 
 ## Experimental protocol
 
