@@ -92,7 +92,7 @@ Run the cell to display the selected model's prediction. Inference loads saved f
 - Keep the encoder frozen; only its downstream Logistic Regression classifier is trained.
 - Do not revise lexicons or select model settings using test results.
 
-Original evaluation populations were 48,116 training, 5,347 development and 3,681 test headlines; the test overlap subset contained 42 headlines. Current results should be taken from the completed notebook run. Historical error-analysis examples in the notebook are explicitly labelled as historical.
+Original evaluation populations were 48,116 training, 5,347 development and 3,681 test headlines; the test overlap subset contained 42 headlines. Current results should be taken from the completed notebook run.
 
 ## Sources and attribution
 
