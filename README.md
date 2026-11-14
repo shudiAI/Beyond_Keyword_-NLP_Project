@@ -101,4 +101,4 @@ Original evaluation populations were 48,116 training, 5,347 development and 3,68
 - [Reimers and Gurevych (2019): Sentence-BERT](https://aclanthology.org/D19-1410/).
 - [all-MiniLM-L6-v2 pretrained model](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2), pinned revision `1110a243fdf4706b3f48f1d95db1a4f5529b4d41`. Encoder weights are Apache-2.0 and are downloaded separately.
 
-Further references and method explanations are included in the notebook. AI assistance was used in implementation, lexicon review, analysis and writing. The team should review, understand and disclose this assistance according to course requirements.
+Further references and method explanations are included in the notebook. AI assistance was used to review candidate terms extracted from the training data and select terms for the Business and Science & Technology lexicons.
